@@ -4,7 +4,6 @@
 #SBATCH --qos=debug						# Specify debug QOS
 #SBATCH --partition=shas					# Specify Summit haswell nodes
 #SBATCH --output=hostname_%j.out		          	# Rename standard output file
-#SBATCH --reservation=new_user					# Reservation name
 
 # Written by:	Shelley Knuth
 # Date:		15 July 2016

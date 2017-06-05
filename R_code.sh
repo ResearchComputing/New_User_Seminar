@@ -4,7 +4,6 @@
 #SBATCH --qos=debug				# Specify debug QOS
 #SBATCH --partition=shas			# Specify Summit haswell nodes
 #SBATCH --output=R_code_%j.out			# Output file name
-#SBATCH --reservation=new_user		# Reservation name
 
 # purge all existing modules
 module purge

@@ -18,9 +18,6 @@
 # purge all existing modules
 module purge
 
-# The directory where you want the job to run
-cd /projects/$USER/tutorials/parallelization_workshop/new
-
 whoami
 sleep 30
 hostname

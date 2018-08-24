@@ -1,9 +1,10 @@
 #!/bin/bash
-#SBATCH --nodes=1				# Number of requested nodes
-#SBATCH --time=0:01:00				# Max walltime
-#SBATCH --qos=debug				# Specify debug QOS
-#SBATCH --partition=shas			# Specify Summit haswell nodes
-#SBATCH --output=R_code_%j.out			# Output file name
+#SBATCH --nodes=1                               # Number of requested nodes
+#SBATCH --ntasks=1                              # Number of requested cores
+#SBATCH --time=0:01:00                          # Max walltime
+#SBATCH --qos=testing                           # Specify debug QOS
+#SBATCH --partition=shas-testing                # Specify Summit haswell nodes
+#SBATCH --output=R_code_%j.out                  # Output file name
 
 # purge all existing modules
 module purge

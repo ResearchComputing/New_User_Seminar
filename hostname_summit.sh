@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --nodes=1                                               # Number of requested nodes
 #SBATCH --ntasks=1                                              # Number of requested cores per node
-#SBATCH --time=0:01:00                                          # Max wall time
+#SBATCH --time=0:01:00                                          # 1 min "walltime" or timelimit
 #SBATCH --qos=testing                                           # Specify debug QOS
 #SBATCH --partition=shas-testing                                # Specify Summit haswell nodes
 #SBATCH --output=hostname_%j.out                                # Rename standard output file

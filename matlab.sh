@@ -20,7 +20,13 @@
 module purge
 
 # Load Matlab module
-module load matlab/R2016b
+module load matlab/R2019b
 
 # Run matlab without a GUI
 matlab -nodisplay -nodesktop -r "clear; matlab_tic;"
+
+# add a linefeed after Matlab output
+echo
+
+#Mark the end of the job
+echo "Job done."

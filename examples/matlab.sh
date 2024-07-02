@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1                      # Number of requested cores per node
 #SBATCH --time=0:02:00                  # 2 minute walltime
 #SBATCH --qos=testing                   # Specify debug QOS
-#SBATCH --partition=shas-testing        # Specify Summit haswell nodes
+#SBATCH --partition=atesting        # Specify amilan testing
 #SBATCH --output=matlab_%j.out          # Rename standard output file
 
 
@@ -20,7 +20,7 @@
 module purge
 
 # Load Matlab module
-module load matlab/R2019b
+module load matlab/R2023b
 
 # Run matlab without a GUI
 matlab -nodisplay -nodesktop -r "clear; matlab_tic;"

@@ -2,7 +2,7 @@
 #SBATCH --nodes=1                    		# Number of requested nodes
 #SBATCH --time=0:05:00               		# Max wall time
 #SBATCH --qos=testing                		# Specify debug QOS
-#SBATCH --partition=amilan     		# Specify Summit haswell nodes
+#SBATCH --partition=atesting     		# Specify Summit haswell nodes
 #SBATCH --ntasks=16          	 	        # Number of tasks per job
 #SBATCH --job-name=Matlab_Gen_Parallel          # Job submission name
 #SBATCH --output=MATLAB_GEN_PARALLEL.%j.out     # Output file name with Job ID

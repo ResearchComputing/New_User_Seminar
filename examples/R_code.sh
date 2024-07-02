@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1                              # Number of requested cores
 #SBATCH --time=0:01:00                          # Max walltime
 #SBATCH --qos=testing                           # Specify debug QOS
-#SBATCH --partition=amilan                # Specify Summit haswell nodes
+#SBATCH --partition=atesting                # Specify Summit haswell nodes
 #SBATCH --output=R_code_%j.out                  # Output file name
 
 # purge all existing modules
